@@ -143,15 +143,59 @@ nav a.btn {
     color: #666;
 }
 
-.biography, .experience, .competences {
+.additional-info {
     background: #2c3e50;
     color: #ecf0f1;
-    padding: 20px 40px;
-    margin: 20px 0;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.additional-content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.image-section {
+    flex: 1;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.image-section img {
+    width: 80%;
+    border-radius: 50%;
+    border: 5px solid #00b894;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #00b894;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+.text-section {
+    flex: 2;
+    background: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.biography, .experience, .competences {
+    margin-bottom: 40px;
 }
 
 .biography h2, .experience h2, .competences h2 {
     font-size: 2em;
+    color: #00b894;
     margin-bottom: 20px;
 }
 
@@ -161,6 +205,7 @@ nav a.btn {
 
 .experience-item h3, .competence-item h3 {
     font-size: 1.5em;
+    color: #ecf0f1;
     margin-bottom: 5px;
 }
 
