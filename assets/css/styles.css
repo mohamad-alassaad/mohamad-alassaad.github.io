@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #1d1d1d;
-    color: #fff;
+    background: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -50,8 +50,9 @@ nav ul li a.btn {
     align-items: center;
     text-align: center;
     padding: 50px 20px;
-    background: #2c3e50;
+    background: #00b894;
     position: relative;
+    color: #fff;
 }
 
 .hero-content {
@@ -87,40 +88,44 @@ nav ul li a.btn {
     margin: 5px 0;
 }
 
+.hero-image {
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
 .hero-image img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
-    margin-top: -100px;
-    border: 5px solid #2c3e50;
-    z-index: 2;
-    position: relative;
+    border: 5px solid #fff;
 }
 
 .stats {
     display: flex;
     justify-content: space-around;
-    background: #34495e;
+    background: #fff;
     padding: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px; /* Adjust to position the stats section overlapping */
 }
 
 .stat {
     text-align: center;
-    color: #fff;
+    color: #333;
 }
 
 .stat h3 {
     margin: 0;
     font-size: 2em;
-    color: #e74c3c;
+    color: #00b894;
 }
 
 .stat p {
     margin: 5px 0 0;
     font-size: 1em;
-    color: #ecf0f1;
+    color: #666;
 }
 
 footer {
