@@ -150,7 +150,7 @@ nav a.btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .additional-content {
@@ -160,10 +160,17 @@ nav a.btn {
     width: 100%;
 }
 
+.text-section {
+    flex: 2;
+    background: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
 .image-section {
     flex: 1;
     text-align: center;
-    margin-right: 20px;
 }
 
 .image-section img {
@@ -180,13 +187,6 @@ nav a.btn {
     color: #00b894;
     margin: 0 10px;
     font-size: 1.5em;
-}
-
-.text-section {
-    flex: 2;
-    background: #34495e;
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .biography, .experience, .competences {
