@@ -143,6 +143,27 @@ nav a.btn {
     color: #666;
 }
 
+.biography, .experience, .competences {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 40px;
+    margin: 20px 0;
+}
+
+.biography h2, .experience h2, .competences h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.experience-item, .competence-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3, .competence-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
 footer {
     background: #333;
     color: #fff;
