@@ -31,6 +31,12 @@ nav ul li a {
     text-align: center;
     padding: 50px 20px;
     background: #f4f4f4;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    margin-top: -75px; /* Adjust this value to vertically center the image */
 }
 
 .profile-image {
@@ -38,12 +44,12 @@ nav ul li a {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    margin-bottom: 20px;
+    border: 5px solid white;
 }
 
 .hero h1 {
     font-size: 2.5em;
-    margin: 10px 0;
+    margin: 20px 0 10px;
 }
 
 .hero .highlight {
