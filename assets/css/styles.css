@@ -211,20 +211,29 @@ nav a.btn {
 
 
 .motivation-box {
-    background-color: #f0f0f0;
+    background-color: #ffffff; /* Change to a contrasting color */
+    color: #333333; /* Dark text color for readability */
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Arial', sans-serif; /* Change font family */
+    max-width: 600px; /* Constrain the width for better readability */
+    text-align: center; /* Center-align the text */
 }
 
 .motivation-box h3 {
     margin-top: 0;
+    font-size: 24px; /* Larger font size for the heading */
+    font-weight: bold; /* Bold heading */
 }
 
 .motivation-box p {
     margin-bottom: 0;
+    font-size: 18px; /* Adjust font size for the paragraph */
+    line-height: 1.6; /* Increase line height for better readability */
 }
+
 
 
 
