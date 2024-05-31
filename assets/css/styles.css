@@ -209,6 +209,25 @@ nav a.btn {
     margin-bottom: 5px;
 }
 
+
+.motivation-box {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.motivation-box h3 {
+    margin-top: 0;
+}
+
+.motivation-box p {
+    margin-bottom: 0;
+}
+
+
+
 footer {
     background: #333;
     color: #fff;
