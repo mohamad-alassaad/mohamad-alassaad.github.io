@@ -189,56 +189,51 @@ nav a.btn {
     font-size: 1.5em;
 }
 
-.biography, .experience, .competences {
+.biography, .experience, .competences, .academic-formation, .projects, .certificates {
     margin-bottom: 40px;
 }
 
-.biography h2, .experience h2, .competences h2 {
+.biography h2, .experience h2, .competences h2, .academic-formation h2, .projects h2, .certificates h2 {
     font-size: 2em;
     color: #00b894;
     margin-bottom: 20px;
 }
 
-.experience-item, .competence-item {
+.experience-item, .competence-item, .formation-item, .project-item, .certificate-item {
     margin-bottom: 20px;
 }
 
-.experience-item h3, .competence-item h3 {
+.experience-item h3, .competence-item h3, .formation-item h3, .project-item h3, .certificate-item h3 {
     font-size: 1.5em;
     color: #ecf0f1;
     margin-bottom: 5px;
 }
 
+.motivation-box {
+    background-color: rgba(0, 50, 70, 0.8); /* Darker variation of the background color */
+    color: #ffffff; /* White text for contrast */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    font-family: 'Arial', sans-serif; /* Change font family */
+    max-width: 600px; /* Constrain the width for better readability */
+    text-align: center; /* Center-align the text */
+    border: 2px solid #2c3e50; /* Border color similar to the image border */
+}
 
-        .motivation-box {
-            background-color: rgba(0, 50, 70, 0.8); /* Darker variation of the background color */
-            color: #ffffff; /* White text for contrast */
-            border-radius: 10px;
-            padding: 20px;
-            margin-top: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.3);
-            font-family: 'Arial', sans-serif; /* Change font family */
-            max-width: 600px; /* Constrain the width for better readability */
-            text-align: center; /* Center-align the text */
-            border: 2px solid #2c3e50; /* Border color similar to the image border */
-        }
+.motivation-box h3 {
+    margin-top: 0;
+    font-size: 24px; /* Larger font size for the heading */
+    font-weight: bold; /* Bold heading */
+    color: #ffffff; /* White text for the heading */
+}
 
-        .motivation-box h3 {
-            margin-top: 0;
-            font-size: 24px; /* Larger font size for the heading */
-            font-weight: bold; /* Bold heading */
-            color: #ffffff; /* White text for the heading */
-        }
-
-        .motivation-box p {
-            margin-bottom: 0;
-            font-size: 18px; /* Adjust font size for the paragraph */
-            line-height: 1.6; /* Increase line height for better readability */
-        }
-
-
-
-
+.motivation-box p {
+    margin-bottom: 0;
+    font-size: 18px; /* Adjust font size for the paragraph */
+    line-height: 1.6; /* Increase line height for better readability */
+}
 
 footer {
     background: #333;
